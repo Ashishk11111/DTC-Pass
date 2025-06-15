@@ -31,7 +31,7 @@ html, body {
 }
 
 .bookmark {
-  width: 96vw;
+  width: 90vw;
   max-width: 100%;
   display: block;
   position: absolute;
@@ -47,8 +47,8 @@ html, body {
   flex-direction: column;
   align-items: center;
   background-color: white;
-  margin: 1.5rem 1.5rem 5rem 1.5rem;
-  width: 96vw;
+  margin: 1.5rem 1rem 3rem 1rem;
+  width: 100vw;
   height: 100%;
   overflow: hidden;
 }
@@ -64,14 +64,13 @@ h2 {
 }
 
 .passport {
-  
+  margin-top: 1rem;
   display: block;
-  margin-top: 0.4rem;
   opacity: 0.8;
 }
 
 .sameP {
-  margin: 0.5rem;
+  margin: 1rem;
   font-weight: bold;
   font-size: 1.2rem;
   text-align: center;
