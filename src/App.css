@@ -87,6 +87,7 @@ h2 {
 }
 
 .appNo {
+  margin: 0.5rem;
   color: #2f8a12;
   text-align: center;
   animation: fadeInOut 1.5s ease-in-out infinite;
@@ -100,6 +101,7 @@ h2 {
 }
 
 .redP {
+  margin: 0.8rem;
   color: red;
   font-weight: bold;
   font-size: 1.2rem;
