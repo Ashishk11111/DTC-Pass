@@ -1,0 +1,172 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+/* *{
+  margin: 0;
+  padding: 0;
+  background-color: #d9eeef;
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight:700;
+  font-size: 1rem;
+  padding: 1rem;
+  background-color: white;
+  color: #01a2a6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  margin-top: 1.2rem;
+  display: flex;
+  justify-content: center;
+  background-color: #d9eeef;
+}
+.nav-container{
+  color: #01a2a6;
+  text-decoration: underline;
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  z-index: 16;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight:700;
+  font-size: 1.2rem;
+  padding: 1rem;
+  background-color: white;
+  color: #01a2a6;
+  box-shadow: 9 6px 8px rgb(26, 1, 1);
+}
+
+.container{
+  background-color: #d9eeef;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 20;
+  
+}
+.bookmark {
+  width: 90vw;
+  max-width: 100%;
+  display: block;
+  position: absolute;
+  height: 100vh;
+  z-index: 10;   /* Makes sure it appears on top */
+  mix-blend-mode:multiply;
+  object-fit: cover;
+}
+.main-container{
+  /* padding: 0 0.2rem 0 0.2rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  margin: 1.5rem 1.5rem 0 1.5rem;
+  width: 96vw;
+  height: 100vh;
+  overflow: hidden;
+
+}
+h3{
+  color: #01a2a6;
+  text-decoration: underline;
+  margin: 0.7rem;
+  display: block;
+  text-align: center;
+  /* z-index: 20; */
+}
+.passport{
+  display:block;
+  margin-top: 0.4rem;
+}
+.sameP{
+  margin: 0.5rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: center;
+  /* z-index: 20; */
+}
+.pass{
+  margin: 0.5rem;
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-align: center;
+  /* z-index: 20; */
+  
+}
+.appNo {
+  color: #2f8a12;
+  text-align: center;
+  animation: fadeInOut 1.5s ease-in-out infinite;
+  /* z-index: 20; */
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.redP{
+  color: red;
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* z-index: 20; */
+}
+.foot-img{
+  margin-top: 1rem;
+  z-index: 20;
+}
