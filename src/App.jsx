@@ -16,7 +16,7 @@ function App() {
           <img className='bookmark' src="./bookmark.png" alt="" />
           <h2>DTC And Cluster Bus Pass</h2>
           {/* <hr/> */}
-          <img className='passport' src="/photo.jpg" alt="" width={230} height={215}/>
+          <img className='passport' src="/photo.jpg" alt="" width={200} height={180}/>
           <p className='sameP'>ASHISH KASHYAP</p>
           <p className='sameP'>Student All route AC/Non AC</p>
           
